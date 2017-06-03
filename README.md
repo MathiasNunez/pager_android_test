@@ -6,7 +6,7 @@
 ### Screens
 
 - ### Splash
-  Here is where initial configurations run, get Roles and Team Member
+ Here is where initial configurations run, get Roles and Team Member
   [Splash](https://drive.google.com/open?id=0B_B4rHBX9XngSGx5OHdjbVFvTlk).
   
 - ### Login
