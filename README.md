@@ -7,7 +7,7 @@
 
 - ### Splash
   Here is where initial configurations run, get Roles and Team Member
-  ![splash](https://lh3.googleusercontent.com/BSZl99FIXltZwYIcj3MJhJbpObmx9QRqnbaN69WTcPjdbF0gWjAko4H6CXhUUYLRkMrvFAgz8VkJFZc=w2560-h1310-rw)
+  ![splash](https://www.dropbox.com/s/hoxfp7foj36imra/splash_screen.png)
   
 - ### Login
   After Splash configuration User can do Login, its kind of fake beacause we do not hanlde passwords, you just use you Github username to enter
