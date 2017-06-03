@@ -10,7 +10,7 @@
   [Splash](https://drive.google.com/open?id=0B_B4rHBX9XngSGx5OHdjbVFvTlk)
   
 - ### Login
-  After Splash configuration User can do Login, its kind of fake beacause we do not hanlde passwords, you just use you Github username to enter
+  After Splash configuration User can log in, it's kind of fake beacause we do not hanlde passwords, you just use your Github username to enter
   [Login](https://lh5.googleusercontent.com/9oADS_UPZfwqRyYTFBE66YeuKSKwlJMAv9Kf2Rw4u1A7guiizB4k7MpGfqEht288EN8FPFYIFiDBzlE=w2560-h1310-rw)
 
 - ### Home
