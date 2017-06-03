@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F07722</color>
+    <color name="colorAccent">#BAF07722</color>
+
+    <!-- Semi transparent -->
+    <color name="semi_black">#aa000000</color>
+    <color name="semi_gray">#64000000</color>
+    <color name="semi_gray_light">#5a000000</color>
+    <color name="semi_white">#28ffffff</color>
+    <color name="semi_white_strong">#aaffffff</color>
+
+    <!-- Grayscale -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_dark" >#414141</color>
+    <color name="gray_light">#dcdcc8</color>
+    <color name="gray_xlight">#fbfbff</color>
+
+</resources>

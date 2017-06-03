@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PagerTest</string>
+    <string name="home_greet_message">Hola %1$s!</string>
+    <string name="home_sub_header">Este es nuestro equipo</string>
+    <string name="home_user_details">Detalles de Usuario</string>
+    <string name="login_button_start">Comenzar</string>
+    <string name="login_error_message">Usuario o Contraseña inválidos</string>
+    <string name="login_header">Ingresar</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_username_hint">Usuario (github)</string>
+    <string name="splash_footer">Por favor espere mientras realizamos algunas configuraciones</string>
+    <string name="splash_header">Bienvenido!</string>
+    <string name="splash_sub_eader">Android Pager Test</string>
+    <string name="status_fragment_header">Cambia tu estado</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="text_ok">OK</string>
+    <string name="user_details_gender">Género</string>
+    <string name="user_details_github">Github</string>
+    <string name="user_details_header">Detalles de Miembro</string>
+    <string name="user_details_languages">Idiomas</string>
+    <string name="user_details_location">Ubicación</string>
+    <string name="user_details_no_status">Sin estado</string>
+    <string name="user_details_role">Rol</string>
+    <string name="user_details_skills">Habilidades</string>
+    <string name="home_filter_apply">Aplicar</string>
+    <string name="home_filter_clear">Limpiar</string>
+    <string name="home_filter_header">Elige las opciones</string>
+    <string name="home_filter_select_role">Seleccionar Rol</string>
+    <string name="home_filter_status">Estado</string>
+    <string name="home_no_results">No hay resultados</string>
+    <string name="error_fingerprint">Ha ocurrido un error detectando su huella, puede reintentar o cancelar e ingresar su contraseña.</string>
+    <string name="fingerprint_title">Ingresar</string>
+    <string name="fingerprint_sub_title">Confirme su huella digital para continuar</string>
+    <string name="fingerprint_touch_sensor">Toque el sensor</string>
+    <string name="fingerprint_cancel">Cancelar</string>
+    <string name="fingerprint_remember_touch_id">Desea recordar su password\ncon Touch ID?</string>
+</resources>

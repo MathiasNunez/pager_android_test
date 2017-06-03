@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/spacing_normal">
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_huge"
+            android:textStyle="bold"
+            tools:text="Team Member Details"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:src="@drawable/ic_user_placeholder"/>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/avatar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/spacing_normal"
+                android:textColor="@color/semi_black"
+                android:textSize="@dimen/font_huge"
+                android:textStyle="bold"
+                tools:text="Mathias Nunez"/>
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edit_text_underline"
+                android:drawablePadding="@dimen/spacing_normal"
+                android:inputType="textShortMessage"
+                android:padding="@dimen/spacing_tiny"
+                android:textColor="@color/semi_black"
+                android:textSize="@dimen/font_large"
+                tools:text="Not Available"/>
+
+            <TableLayout
+                android:id="@+id/labels_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_margin="@dimen/spacing_normal"
+                android:padding="@dimen/spacing_small">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/spacing_tiny"
+                        android:text="@string/user_details_role"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"/>
+
+                    <TextView
+                        android:id="@+id/role"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/spacing_tiny"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"
+                        android:textStyle="bold"
+                        tools:text="Ingeniero de Sistemas"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/spacing_tiny"
+                        android:text="@string/user_details_github"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"/>
+
+                    <TextView
+                        android:id="@+id/github"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/spacing_tiny"
+                        android:text="@string/user_details_no_status"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/spacing_tiny"
+                        android:text="@string/user_details_skills"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"/>
+
+                    <TextView
+                        android:id="@+id/skills"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/spacing_tiny"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"
+                        android:textStyle="bold"
+                        tools:text="Java, C++, Python"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/spacing_normal"
+                        android:padding="@dimen/spacing_tiny"
+                        android:text="@string/user_details_languages"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"/>
+
+                    <TextView
+                        android:id="@+id/languages"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/spacing_tiny"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"
+                        android:textStyle="bold"
+                        tools:text="English, Spanish"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/spacing_tiny"
+                        android:text="@string/user_details_location"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"/>
+
+                    <ImageView
+                        android:id="@+id/location"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="start"
+                        android:layout_marginStart="@dimen/spacing_tiny"
+                        tools:src="@drawable/uy"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/spacing_tiny"
+                        android:text="@string/user_details_gender"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"/>
+
+                    <TextView
+                        android:id="@+id/gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/spacing_tiny"
+                        android:textColor="@color/semi_black"
+                        android:textSize="@dimen/font_large"
+                        android:textStyle="bold"
+                        tools:text="Male"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- General -->
+    <string name="app_name">PagerTest</string>
+    <string name="text_ok">OK</string>
+    <string name="text_cancel">Cancel</string>
+
+    <!-- Splash Activity -->
+    <string name="splash_header">Welcome!</string>
+    <string name="splash_sub_eader">Android Pager Test</string>
+    <string name="splash_footer">Please wait while we run some configurations</string>
+
+    <!-- Login -->
+    <string name="login_header">Login</string>
+    <string name="login_username_hint">Username (github)</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button_start">Start</string>
+    <string name="login_error_message">Sorry, invalid Username or Password</string>
+
+    <!-- Home Activity -->
+    <string name="home_greet_message">Hi %1$s!</string>
+    <string name="home_user_details">User Details</string>
+    <string name="home_sub_header">Take a look to our team</string>
+    <string name="home_filter_header">Choose your options</string>
+    <string name="home_filter_status">Status</string>
+    <string name="home_filter_clear">Clear</string>
+    <string name="home_filter_apply">Apply</string>
+    <string name="home_filter_select_role">Select Role</string>
+    <string name="home_no_results">No results</string>
+
+    <!-- User Details Activity -->
+    <string name="user_details_header">Team Member Details</string>
+    <string name="user_details_role">Role</string>
+    <string name="user_details_github">Github</string>
+    <string name="user_details_skills">Skills</string>
+    <string name="user_details_languages">Languages</string>
+    <string name="user_details_location">Location</string>
+    <string name="user_details_gender">Gender</string>
+    <string name="user_details_no_status">No status</string>
+
+    <!-- Status Change Fragment -->
+    <string name="status_fragment_header">Change your status</string>
+
+    <!-- Fingerprint Fragment -->
+    <string name="error_fingerprint">An error has occurred detecting your fingerprint, you can retry or cancel and enter your login as usual.</string>
+    <string name="fingerprint_title">Sign in</string>
+    <string name="fingerprint_sub_title">Confirm your fingerprint to continue</string>
+    <string name="fingerprint_touch_sensor">Touch the sensor</string>
+    <string name="fingerprint_cancel">Cancel</string>
+    <string name="fingerprint_remember_touch_id">Would you like to remember your login with Touch ID?</string>
+
+</resources>
