@@ -1,5 +1,7 @@
 # Pager Android Test
-This is an Android Application developed as [required](https://gist.github.com/Chompas/2d235019f2d1e38086d17e71f53fafc5#file-android-task-md).
+- This is an Android Application developed as [required](https://gist.github.com/Chompas/2d235019f2d1e38086d17e71f53fafc5#file-android-task-md).
+
+- To install the app please follow this [link](https://rink.hockeyapp.net/apps/e352ea040fc6452da2e94e6ba19bf829/app_versions/1)
 
 ### Screens
 
