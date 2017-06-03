@@ -29,7 +29,7 @@
   Here is a list of some nice extras:
   
 - ### Fingerprint
-  If the app is running on a device which has fingerprint detector, once User logs in, it will be prompted with a message asking if he would like to remeber his credentials and log in with his fingerprint.
+  If the app is running on a device that has fingerprint detector, once User logs in, it will be prompted with a message asking if he'd like to remember his credentials and log in with his fingerprint.
   [Fingerprint](https://lh6.googleusercontent.com/42x9yry3AXdX45mrNftl7vsW2mWBQ5jKh1KzWkAdDIUncVZmLPX9Qedy1UXS01KP_AIfOi4bvodZKGw=w2560-h1310-rw).
 
 - ### Filtering
