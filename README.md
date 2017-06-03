@@ -21,7 +21,7 @@
   - Here we have two functionalities, one is when User enter to see a Member Details
   [Details](https://lh4.googleusercontent.com/W34kaFjnANOThm8ETBt9Cn9DBtH4r836zOTGWFzzuZnjM-lS7_uFeKeremQm1ATvTUfq_g6fk5CDV6g=w2560-h1310-rw)
   - And also if enters in his profile he can change his status
-  ![change_status](https://lh3.googleusercontent.com/HPVQ2sAJjnh5bBENHsGsNhdC-TtiQuIe77lwAvRLoY88-Lw1YrS6PFrwkIAwPqT-EKfN-s_dPI25_Ps=w2560-h1310-rw)
+  [Change Status](https://lh3.googleusercontent.com/HPVQ2sAJjnh5bBENHsGsNhdC-TtiQuIe77lwAvRLoY88-Lw1YrS6PFrwkIAwPqT-EKfN-s_dPI25_Ps=w2560-h1310-rw)
 
 ### Extras
   Here are some list of some nice extras:
