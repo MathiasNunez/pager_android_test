@@ -24,7 +24,7 @@ public class UIUtils {
 
     public static void showSimpleAlert(Context context, String message, String okButton) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setIcon(R.mipmap.ic_launcher);
+        builder.setIcon(R.drawable.ic_launcher);
         builder.setTitle(context.getString(R.string.app_name));
         builder.setMessage(message);
         builder.setPositiveButton(okButton, null);
@@ -37,7 +37,7 @@ public class UIUtils {
                                               DialogInterface.OnClickListener positiveListener) {
         android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(activity);
         builder.setMessage(message);
-        builder.setIcon(R.mipmap.ic_launcher);
+        builder.setIcon(R.drawable.ic_launcher);
         builder.setTitle(R.string.app_name);
         builder.setPositiveButton(positiveBtn, positiveListener);
         builder.setNegativeButton(negativeBtn, negativeListener);
@@ -49,7 +49,7 @@ public class UIUtils {
                                                 DialogInterface.OnClickListener listener) {
         android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(activity);
         builder.setMessage(message);
-        builder.setIcon(R.mipmap.ic_launcher);
+        builder.setIcon(R.drawable.ic_launcher);
         builder.setTitle(R.string.app_name);
         builder.setPositiveButton(btn, listener);
         builder.create().show();
