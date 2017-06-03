@@ -18,10 +18,11 @@
   [Home](https://lh6.googleusercontent.com/P9vAIxUpjqZwWelEmFUwJqEDnUJFACAO1ne0iOZc9q0Y0dSMZLH_Svu8aKbXXM3DuWHm5HL4JEoU8gk=w2560-h1310-rw).
 
 - ### User Details
-  Here we have two functionalities, one is when User enters to see a Member's Details
+  Here we have two functionalities: 
+  - When User enters to see a Member's Details
   [Details](https://lh4.googleusercontent.com/W34kaFjnANOThm8ETBt9Cn9DBtH4r836zOTGWFzzuZnjM-lS7_uFeKeremQm1ATvTUfq_g6fk5CDV6g=w2560-h1310-rw).
   
-  And also if enters in his profile he can change his status
+  - When User enters in his profile he can change his status
   [Change Status](https://lh3.googleusercontent.com/HPVQ2sAJjnh5bBENHsGsNhdC-TtiQuIe77lwAvRLoY88-Lw1YrS6PFrwkIAwPqT-EKfN-s_dPI25_Ps=w2560-h1310-rw).
 
 ### Extras
