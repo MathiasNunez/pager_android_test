@@ -18,9 +18,10 @@
   [Home](https://lh6.googleusercontent.com/P9vAIxUpjqZwWelEmFUwJqEDnUJFACAO1ne0iOZc9q0Y0dSMZLH_Svu8aKbXXM3DuWHm5HL4JEoU8gk=w2560-h1310-rw).
 
 - ### User Details
-  - Here we have two functionalities, one is when User enters to see a Member's Details
+  Here we have two functionalities, one is when User enters to see a Member's Details
   [Details](https://lh4.googleusercontent.com/W34kaFjnANOThm8ETBt9Cn9DBtH4r836zOTGWFzzuZnjM-lS7_uFeKeremQm1ATvTUfq_g6fk5CDV6g=w2560-h1310-rw).
-  - And also if enters in his profile he can change his status
+  
+  And also if enters in his profile he can change his status
   [Change Status](https://lh3.googleusercontent.com/HPVQ2sAJjnh5bBENHsGsNhdC-TtiQuIe77lwAvRLoY88-Lw1YrS6PFrwkIAwPqT-EKfN-s_dPI25_Ps=w2560-h1310-rw).
 
 ### Extras
@@ -31,6 +32,6 @@
   [Fingerprint](https://lh6.googleusercontent.com/42x9yry3AXdX45mrNftl7vsW2mWBQ5jKh1KzWkAdDIUncVZmLPX9Qedy1UXS01KP_AIfOi4bvodZKGw=w2560-h1310-rw).
 
 - ### Filtering
-  Last but not least, when user is at the Home Screen, he can perfom a filter among the team members
+ Last but not least, when user is at the Home Screen, he can perfom a filter among the team members
   [Filter](https://lh5.googleusercontent.com/gcJhjypNUHz7XeGNGdoxvCzzIVNK3eILGlLp6i8l3AU1ZHIfbN-mXXcmo9yPh3_LPNxwa_ITXzrwNmQ=w2560-h1310-rw).
 
