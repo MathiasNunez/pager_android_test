@@ -10,7 +10,7 @@
   [Splash](https://www.dropbox.com/s/hoxfp7foj36imra/splash_screen.png?dl=0).
   
 - ### Login
-  After Splash configuration User can log in, it's kind of fake beacause we do not hanlde passwords, you just use your Github username to enter
+  After Splash configuration User can log in, it's kind of fake beacause we don't handle passwords, you just use your Github username to enter
   [Login](https://www.dropbox.com/s/pxh5hbrpdfej0tz/login_screen.png?dl=0).
 
 - ### Home
