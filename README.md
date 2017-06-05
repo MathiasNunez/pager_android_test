@@ -15,7 +15,7 @@
 
 - ### Home
   All members are listed, and status is updated via web socket. User can click on one item to see details or click on the image at the top in order to view its own profile.
-  [Home](https://www.dropbox.com/s/7t1lddqva5ssprj/home_screen.png?dl=0).
+  [Home](https://www.dropbox.com/s/9w0xm2pj9b4mqmq/home_screen_2.png?dl=0).
 
 - ### User Details
   Here we have two functionalities: 
