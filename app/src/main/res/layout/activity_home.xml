@@ -64,11 +64,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/separator"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textSize="@dimen/spacing_large"
         android:gravity="center"
         android:text="@string/home_no_results"
+        android:textColor="@color/white"
+        android:textSize="@dimen/spacing_large"
+        android:textStyle="bold"
         android:visibility="gone"/>
 
     <RelativeLayout
@@ -119,8 +119,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/spacing_large"
                 android:background="@drawable/edit_text_underline"
-                android:spinnerMode="dialog"
-                android:padding="@dimen/spacing_tiny"/>
+                android:padding="@dimen/spacing_tiny"
+                android:spinnerMode="dialog"/>
 
             <EditText
                 android:id="@+id/skills"
@@ -211,10 +211,10 @@
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/black"
-        android:padding="@dimen/spacing_normal"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true">
+        android:background="@color/black"
+        android:padding="@dimen/spacing_normal">
 
         <com.mikhaellopez.circularimageview.CircularImageView
             android:id="@+id/user_icon"
@@ -232,9 +232,9 @@
             android:id="@+id/header_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/user_icon"
-            android:layout_marginStart="@dimen/spacing_small"
             android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:layout_toEndOf="@id/user_icon"
             android:textColor="@color/white"
             android:textSize="@dimen/font_larger"
             android:textStyle="bold"

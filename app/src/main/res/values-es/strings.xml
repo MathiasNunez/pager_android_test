@@ -35,4 +35,11 @@
     <string name="fingerprint_touch_sensor">Toque el sensor</string>
     <string name="fingerprint_cancel">Cancelar</string>
     <string name="fingerprint_remember_touch_id">Desea recordar su password\ncon Touch ID?</string>
+    <string name="user_details_already_following">En esta versión solamente es posible seguir a un solo miembro</string>
+    <string name="user_details_follow">+ Seguir!</string>
+    <string name="user_details_no_longer_follow">Ya no sigues a %1$s</string>
+    <string name="user_details_now_follow">Estás siguiendo a $%1$s</string>
+    <string name="user_details_unfollow">- Dejar de seguir</string>
+    <string name="widget_not_following">No estas siguiendo a ningún miembro del equipo</string>
+    <string name="widget_header">Pager Test - Siguiendo a</string>
 </resources>

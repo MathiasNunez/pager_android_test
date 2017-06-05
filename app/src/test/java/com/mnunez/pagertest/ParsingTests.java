@@ -64,7 +64,7 @@ public class ParsingTests {
     }
 
     @Test
-    public void test_parseUpdateStatus(){
+    public void test_parseUpdateStatus() {
         ParseUtils.parseAndUpdateStatusChanged(statusText);
         assertTrue(user.getStatus().equals("Test"));
     }

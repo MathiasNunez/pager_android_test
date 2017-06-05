@@ -22,9 +22,9 @@
         android:layout_margin="@dimen/spacing_normal"
         android:background="@drawable/edit_text_underline"
         android:imeOptions="actionDone"
-        android:textColor="@color/black"
         android:inputType="textShortMessage"
         android:padding="@dimen/spacing_small"
+        android:textColor="@color/black"
         android:textSize="@dimen/font_large"/>
 
     <LinearLayout

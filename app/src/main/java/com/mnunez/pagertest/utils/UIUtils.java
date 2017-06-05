@@ -4,17 +4,12 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.mnunez.pagertest.R;
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
-import static android.view.View.GONE;
-import static android.view.View.VISIBLE;
-import static android.view.WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
 
 /**
  * Created by mnunez on 5/26/17.
@@ -56,8 +51,8 @@ public class UIUtils {
     }
 
     public static void showToast(Activity activity, String message) {
-        if (activity != null && activity.getCurrentFocus() != null) {
-            Snackbar.make(activity.getCurrentFocus(), message, Snackbar.LENGTH_LONG).show();
+        if (activity != null) {
+            Toast.makeText(activity, message, Toast.LENGTH_SHORT).show();
         }
     }
 

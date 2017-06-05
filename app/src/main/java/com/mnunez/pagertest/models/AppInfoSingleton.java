@@ -1,7 +1,5 @@
 package com.mnunez.pagertest.models;
 
-import com.mnunez.pagertest.application.PagerTestApplication;
-
 import java.util.List;
 import java.util.Map;
 

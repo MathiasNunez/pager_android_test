@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.mnunez.pagertest.R;
 import com.mnunez.pagertest.models.AppInfoSingleton;
 import com.mnunez.pagertest.models.User;
+import com.mnunez.pagertest.utils.StringUtils;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -42,8 +43,11 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UserViewHold
     public void onBindViewHolder(final UserViewHolder holder, int position) {
         holder.name.setText(mUsers.get(position).getName());
         holder.role.setText(mUsers.get(position).getRole().getDescription());
-        holder.status.setText(mUsers.get(position).getStatus());
-        Picasso.with(mContext).load(mUsers.get(position).getAvatar()).resize(60, 60).centerCrop().placeholder(R.drawable.ic_user_placeholder).into(holder.avatar);
+        if (StringUtils.isNotEmpty(mUsers.get(position).getStatus())) {
+            holder.status.setText(mUsers.get(position).getStatus());
+        }
+        Picasso.with(mContext).load(mUsers.get(position).getAvatar()).resize(60, 60).
+                centerCrop().placeholder(R.drawable.ic_user_placeholder).into(holder.avatar);
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -62,11 +66,14 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UserViewHold
         return mUsers.size();
     }
 
+    public interface NavigationDetailsListener {
+        void goToDetails(User user, String text, boolean isUserLogged);
+    }
+
     static class UserViewHolder extends RecyclerView.ViewHolder {
         CardView cardView;
         ImageView avatar;
         TextView name, role, status;
-
 
         UserViewHolder(View itemView) {
             super(itemView);
@@ -76,9 +83,5 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UserViewHold
             status = (TextView) itemView.findViewById(R.id.status);
             avatar = (ImageView) itemView.findViewById(R.id.avatar);
         }
-    }
-
-    public interface NavigationDetailsListener {
-        void goToDetails(User user, String text, boolean isUserLogged);
     }
 }

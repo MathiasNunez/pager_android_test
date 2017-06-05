@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -19,7 +20,6 @@ import com.mikhaellopez.circularimageview.CircularImageView;
 import com.mnunez.pagertest.BuildConfig;
 import com.mnunez.pagertest.R;
 import com.mnunez.pagertest.adapters.UsersAdapter;
-import com.mnunez.pagertest.application.PagerTestApplication;
 import com.mnunez.pagertest.models.AppInfoSingleton;
 import com.mnunez.pagertest.models.Role;
 import com.mnunez.pagertest.models.SocketEventEnum;
@@ -33,6 +33,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Map;
 
+import okhttp3.Response;
 import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
 
@@ -105,6 +106,12 @@ public class HomeActivity extends Activity implements View.OnClickListener, User
                         }
                     }
                 });
+            }
+
+            @Override
+            public void onFailure(WebSocket webSocket, Throwable t, Response response) {
+                super.onFailure(webSocket, t, response);
+                Log.d(HomeActivity.class.getSimpleName(), t.getMessage());
             }
         });
     }

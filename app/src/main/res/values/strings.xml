@@ -37,6 +37,11 @@
     <string name="user_details_location">Location</string>
     <string name="user_details_gender">Gender</string>
     <string name="user_details_no_status">No status</string>
+    <string name="user_details_follow">+ Follow!</string>
+    <string name="user_details_unfollow">- Unfollow</string>
+    <string name="user_details_no_longer_follow">You are no longer following %1$s</string>
+    <string name="user_details_now_follow">You are following %1$s now!</string>
+    <string name="user_details_already_following">Sorry but in this version you can only follow one member.</string>
 
     <!-- Status Change Fragment -->
     <string name="status_fragment_header">Change your status</string>
@@ -48,5 +53,9 @@
     <string name="fingerprint_touch_sensor">Touch the sensor</string>
     <string name="fingerprint_cancel">Cancel</string>
     <string name="fingerprint_remember_touch_id">Would you like to remember your login with Touch ID?</string>
+
+    <!-- Widget -->
+    <string name="widget_not_following">You are not following any Team Member</string>
+    <string name="widget_header">Pager Test - Following Member</string>
 
 </resources>

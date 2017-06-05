@@ -13,7 +13,7 @@
     <!-- Grayscale -->
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
-    <color name="gray_dark" >#414141</color>
+    <color name="gray_dark">#414141</color>
     <color name="gray_light">#dcdcc8</color>
     <color name="gray_xlight">#fbfbff</color>
 

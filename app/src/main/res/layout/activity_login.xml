@@ -37,9 +37,9 @@
                 android:layout_marginBottom="@dimen/spacing_large"
                 android:background="@color/white"
                 android:hint="@string/login_username_hint"
+                android:imeOptions="actionNext"
                 android:inputType="text"
                 android:padding="@dimen/spacing_normal"
-                android:imeOptions="actionNext"
                 android:textColor="@color/colorPrimary"
                 android:textColorHint="@color/colorAccent"
                 android:textSize="@dimen/font_large"/>
@@ -51,10 +51,10 @@
                 android:layout_marginBottom="@dimen/spacing_large"
                 android:background="@color/white"
                 android:hint="@string/login_password_hint"
+                android:imeOptions="actionDone"
                 android:inputType="textPassword"
                 android:padding="@dimen/spacing_normal"
                 android:textColor="@color/colorPrimary"
-                android:imeOptions="actionDone"
                 android:textColorHint="@color/colorAccent"
                 android:textSize="@dimen/font_large"/>
 

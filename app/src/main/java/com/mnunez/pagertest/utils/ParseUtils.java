@@ -89,28 +89,29 @@ public class ParseUtils {
         return socketEventEnum;
     }
 
-    public static void parseAndUpdateStatusChanged(String text) {
+    public static String parseAndUpdateStatusChanged(String text) {
         Gson gson = new Gson();
         JsonElement jsonElement = gson.fromJson(text, JsonElement.class);
         JsonObject jsonObject = jsonElement.getAsJsonObject();
         String user = jsonObject.get("user").getAsString();
         String status = jsonObject.get("state").getAsString();
-
-        if (AppInfoSingleton.getInstance().getmLoggedUser() != null &&
-                AppInfoSingleton.getInstance().getmLoggedUser().getGithub().equalsIgnoreCase(user)) {
-            AppInfoSingleton.getInstance().getmLoggedUser().setStatus(status);
-        } else {
-            int i = 0;
-            boolean found = false;
-            while (i < AppInfoSingleton.getInstance().getmUsers().size() && !found) {
-                if (StringUtils.isNotEmpty(user) &&
-                        user.equalsIgnoreCase(AppInfoSingleton.getInstance().getmUsers().get(i).getGithub())) {
-                    found = true;
-                    AppInfoSingleton.getInstance().getmUsers().get(i).setStatus(status);
+        if (StringUtils.isNotEmpty(status) && StringUtils.isNotEmpty(user)) {
+            if (AppInfoSingleton.getInstance().getmLoggedUser() != null &&
+                    AppInfoSingleton.getInstance().getmLoggedUser().getGithub().equalsIgnoreCase(user)) {
+                AppInfoSingleton.getInstance().getmLoggedUser().setStatus(status);
+            } else {
+                int i = 0;
+                boolean found = false;
+                while (i < AppInfoSingleton.getInstance().getmUsers().size() && !found) {
+                    if (user.equalsIgnoreCase(AppInfoSingleton.getInstance().getmUsers().get(i).getGithub())) {
+                        found = true;
+                        AppInfoSingleton.getInstance().getmUsers().get(i).setStatus(status);
+                    }
+                    i++;
                 }
-                i++;
             }
         }
+        return status;
     }
 
 }

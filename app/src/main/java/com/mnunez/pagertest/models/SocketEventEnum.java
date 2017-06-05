@@ -9,13 +9,7 @@ import java.util.Map;
 
 public enum SocketEventEnum {
 
-     USER("user_new"), STATUS("state_change");
-
-    private String propertyName;
-
-    private SocketEventEnum(String propertyName) {
-        this.propertyName = propertyName;
-    }
+    USER("user_new"), STATUS("state_change");
 
     private static final Map<String, SocketEventEnum> lookup = new HashMap<>();
 
@@ -24,11 +18,17 @@ public enum SocketEventEnum {
             lookup.put(m.getPropertyName(), m);
     }
 
-    public String getPropertyName() {
-        return this.propertyName;
+    private String propertyName;
+
+    SocketEventEnum(String propertyName) {
+        this.propertyName = propertyName;
     }
 
     public static SocketEventEnum get(String propertyName) {
         return lookup.containsKey(propertyName) ? lookup.get(propertyName) : null;
+    }
+
+    public String getPropertyName() {
+        return this.propertyName;
     }
 }
