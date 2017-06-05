@@ -20,7 +20,7 @@
     <!-- Home Activity -->
     <string name="home_greet_message">Hi %1$s!</string>
     <string name="home_user_details">User Details</string>
-    <string name="home_sub_header">Take a look to our team</string>
+    <string name="home_sub_header">Take a look at our team</string>
     <string name="home_filter_header">Choose your options</string>
     <string name="home_filter_status">Status</string>
     <string name="home_filter_clear">Clear</string>
