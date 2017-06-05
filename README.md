@@ -11,7 +11,7 @@
   
 - ### Login
   After Splash configuration User can log in, it's kind of fake beacause we do not hanlde passwords, you just use your Github username to enter
-  [Login](https://lh5.googleusercontent.com/9oADS_UPZfwqRyYTFBE66YeuKSKwlJMAv9Kf2Rw4u1A7guiizB4k7MpGfqEht288EN8FPFYIFiDBzlE=w2560-h1310-rw).
+  [Login](https://www.dropbox.com/s/pxh5hbrpdfej0tz/login_screen.png?dl=0).
 
 - ### Home
   All members are listed, and status is updated via socket. User can click on one item to see details or click on the image at the top in order to view its own profile.
