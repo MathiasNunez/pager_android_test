@@ -6,7 +6,7 @@
 ### Screens
 
 - ### Splash
- Here is where initial configurations run, get Roles and Team Member
+ Here is where initial configurations run, get Roles and Team Members
   [Splash](https://www.dropbox.com/s/hoxfp7foj36imra/splash_screen.png?dl=0).
   
 - ### Login
@@ -14,7 +14,7 @@
   [Login](https://www.dropbox.com/s/pxh5hbrpdfej0tz/login_screen.png?dl=0).
 
 - ### Home
-  All members are listed, and status is updated via socket. User can click on one item to see details or click on the image at the top in order to view its own profile.
+  All members are listed, and status is updated via web socket. User can click on one item to see details or click on the image at the top in order to view its own profile.
   [Home](https://www.dropbox.com/s/7t1lddqva5ssprj/home_screen.png?dl=0).
 
 - ### User Details
@@ -26,14 +26,14 @@
   [Change Status](https://www.dropbox.com/s/89tm1map2cgg6dv/change_status.png?dl=0).
 
 ### Extras
-  Here is a list of some nice extras:
+  Here is a list of some nice extras :D
   
 - ### Fingerprint
   If the app is running on a device that has fingerprint detector, once User logs in, it will be prompted with a message asking if he'd like to remember his credentials and log in with his fingerprint.
   [Fingerprint](https://www.dropbox.com/s/356mpdtx3x97hex/fingerprint.png?dl=0).
 
 - ### Home Widget
- User can Follow a Member by accessing Member Details screen and clicking at the top right "+Follow" button an then can add a Home Widget in order to Follow that Member status live [Home Widget](https://www.dropbox.com/s/csg0csazojuat4z/widget_home.png?dl=0).
+ User can Follow a Member by accessing Member Details screen and clicking at the top right "+Follow" button. Then, he can add a Home Widget in order to Follow that Member status live (which is updated via web socket) [Home Widget](https://www.dropbox.com/s/csg0csazojuat4z/widget_home.png?dl=0).
 
 - ### Filtering
  Last but not least, when user is at the Home Screen, he can perfom a filter among the team members
